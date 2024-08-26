@@ -1,0 +1,112 @@
+
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Avenir', sans-serif;
+
+    // MAX WIDTH
+    $max-width:2376px;
+
+
+    // MARGIN LEFT AND RIGHT
+    $marginBody:80px !important;
+
+    // MARGIN LEFT AND RIGHT MOBILE
+    $marginBodyMobile:0px !important;
+
+    $font-h1: 50px;
+    $font-h2:28px;
+    $font-h3:28px;
+    $font-p:18px;
+
+
+    $font-h1-mobile:16px;
+    $font-h2-mobile:16px;
+    $font-p-mobile:13px;
+
+
+    h1{
+        font-size: $font-h1;
+        font-family: "Avenir", sans-serif;
+    }
+
+    h2{
+        font-size: $font-h2;
+        font-family: "Avenir", sans-serif;
+        font-weight: 800;
+    }
+
+    h3{
+        font-size: $font-h3;
+        font-family: "Avenir", sans-serif;
+    }
+
+    p{
+        font-size: $font-p;
+        font-family: "Avenir", sans-serif;
+    }
+
+    a{  
+        font-size: $font-p;
+        font-family: "Avenir", sans-serif;
+    }
+
+    @media only screen and (max-width: 1024px) {
+        h1{
+            font-size: $font-h1-mobile;
+            font-family: "Avenir", sans-serif;
+        }
+        
+        h2{
+            font-size: $font-h2-mobile;
+            font-family: "Avenir", sans-serif;
+        }
+        p{
+            font-size: $font-p-mobile !important;
+            font-family: "Avenir", sans-serif;
+        }
+        
+        a{  
+            font-family: $font-p-mobile;
+            font-family: "Avenir", sans-serif;
+        }
+    }
+
+    
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('./fonts/Avenir.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+$max-width:2376px;
+
+$marginBody:80px !important;
+$marginBodyMobile:0px !important;
+
+$font-h1: 50px;
+$font-h2:28px;
+$font-h3:28px;
+$font-p:18px;
+
+$font-h1-mobile:18px;
+$font-h2-mobile:16px;
+$font-p-mobile:13px;
+
+
+/*TAMAÑO NOTA*/
+$SizeNota:14px;
+$SizeNotaMobile:10px;
+
+
+
+
