@@ -1071,25 +1071,24 @@ textarea {
 // RELOJ
 
 .reloj-analogico {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.esfera {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  width: 100px;
-  height: 100px;
-  border: 0px solid rgb(0, 0, 0);
-  border-radius: 50%;
-  background-color: rgb(0, 0, 0);
-  transform: rotate(-90deg);
 }
 
-.subEsfera {
+.esfera {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border: 8px solid black;
+  border-radius: 50%;
+  background-color: black;
+  transform: rotate(-90deg); /* Rotamos la esfera para corregir la orientación */
+}
+.subesfera{
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -1098,33 +1097,28 @@ textarea {
 
 .manecilla {
   position: absolute;
+  width: 50%;
   height: 2px;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   top: 50%;
   left: 50%;
   transform-origin: 0% 0%;
+  transform: rotate(90deg); /* Compensamos la rotación */
 }
 
 .hora {
-  top:50%;
-  left: 48%;
   width: 30%;
   height: 4px;
   background-color: white;
 }
 
 .minuto {
-  top:50%;
-  left: 52%;
   width: 40%;
   height: 3px;
-
 }
 
 .segundo {
-  top:50%;
-  left: 50%;
-  background-color: rgb(116, 116, 116);
+  background-color: #7e7e7e;
   width: 45%;
 }
 
@@ -1132,12 +1126,13 @@ textarea {
   position: absolute;
   width: 10px;
   height: 10px;
-  background-color: rgb(116, 116, 116);
+  background-color:   #7e7e7e;
   border-radius: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 
 
 // FIN RELOJ

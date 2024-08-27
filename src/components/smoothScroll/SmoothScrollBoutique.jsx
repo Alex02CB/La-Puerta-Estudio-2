@@ -30,7 +30,9 @@ const HorizontalScrollCarousel = () => {
     const handleResize = () => {
       if (window.matchMedia("(min-width: 768px) and (max-width: 1964px)").matches) {
         // RESOLUCIÓN MAC
-        setXRange(["1%", "-70%"]);
+        setXRange(["1%", "-60%"]);
+      } else if(window.matchMedia("(max-width:768px)").matches) {
+        setXRange(["2%", "-70%"]);
       } else {
         // Pantallas grandes (más de 1964px)
         setXRange(["1%", "-43%"]);

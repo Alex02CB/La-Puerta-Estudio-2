@@ -48,10 +48,9 @@ function Footer() {
 
                             <p>Desarrollado: J.Alejandro Campillo</p>
 
-                            <a href="">Todos los derechos reservados.</a>
+                            <p>Todos los derechos reservados 2024 ®</p>
 
                             <a href="">Terminos y condiciones</a>
-
 
                         </div>
 
