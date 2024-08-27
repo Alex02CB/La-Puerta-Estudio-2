@@ -98,6 +98,14 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
+.video-mobile{
+  display: none;
+}
+.video-background{
+  display: block;
+}
+
 .video-background {
   position: absolute;
   top: 50%;
@@ -219,9 +227,23 @@ body {
   .ServicioEscritorio {
     display: none;
   }
-
   .bannerHome {
     background-position: 50% 50%;
+  }
+  .video-mobile{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  
+  .video-background{
+    display: none;
   }
 
   .imageSer {
