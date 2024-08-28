@@ -3,7 +3,7 @@ import React from 'react';
 const LoadingScreen = () => {
     return (
         <div style={styles.container}>
-            <img style={styles.img} src="public/LAPUERTALOADER.png" alt="" />
+            <img style={styles.img} src="/LAPUERTALOADER.png" alt="" />
         </div>
     );
 };
