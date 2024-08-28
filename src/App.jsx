@@ -1,4 +1,5 @@
 import {Routes,Route} from 'react-router-dom';
+import { useState,useEffect } from 'react';
 import Home from '/src/components/Home.jsx';
 import StudioExperience from '/src/components/StudioExperience.jsx';
 import StudioBoutique from '/src/components/StudioBoutique.jsx';
@@ -15,9 +16,26 @@ import Encuentranos from './components/Encuentranos';
 import "./styles.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import LoadingScreen from './components/loading/LoadingScreen';
 
 
 function App() {
+
+  // LOADER
+
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
+
+  if (isLoading) {
+    return <LoadingScreen />;
+  }
+
+  // END LOADER
 
   return (
     <>

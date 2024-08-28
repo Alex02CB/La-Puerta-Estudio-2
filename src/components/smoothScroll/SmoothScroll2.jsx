@@ -133,7 +133,7 @@ const cards = [
   {
     url: "/imgEstudio/editorial.jpg",
     title: "Editorial",
-    description:"Un sonido innovador para tus producciones audiovisuales. ",
+    description:"Edita las partituras de tus canciones y registralas con nosotros. ",
     id: 5,
   }
 
