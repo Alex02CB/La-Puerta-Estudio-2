@@ -2,7 +2,7 @@ import '/src/styles.scss'
 
 const DownloadPDF = () => {
   return (
-    <a href="/CV-Juan-Alejandro.pdf" download className='descargarPDF'>
+    <a href="/2024_LaPuerta_Diseño_Rider.pdf" download className='descargarPDF'>
       Ver especificaciones
     </a>
   );
