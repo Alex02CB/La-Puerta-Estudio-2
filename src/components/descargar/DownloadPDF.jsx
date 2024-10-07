@@ -2,7 +2,7 @@ import '/src/styles.scss'
 
 const DownloadPDF = () => {
   return (
-    <a href="/2024_LaPuerta_Diseño_Rider.pdf" download className='descargarPDF'>
+    <a href="/PDFs/Info_Acustico.pdf" download className='descargarPDF'>
       Ver especificaciones
     </a>
   );

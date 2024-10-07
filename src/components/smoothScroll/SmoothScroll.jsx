@@ -61,12 +61,10 @@ const SmoothScroll = () => {
           </div>
 
           <div className='contactanosEstudioSmooth col-lg-3 col-md-6 col-12 '>
-            <Link>
               <div className='buttonSerHome d-flex  justify-content-between'>
-                <DownloadPDF />
+                <DownloadPDF/>
                 <i className="bi bi-arrow-right"></i>
               </div>
-            </Link>
           </div>
 
         </div>
@@ -112,7 +110,7 @@ const HorizontalScrollCarousel = () => {
 
   return (
     <section ref={targetRef} className="relative h-[200vh] ocultarScroll">
-      <div className="sticky top-0 flex h-screen items-center overflow-hidden">
+      <div className="sticky top-0 flex h-screen + overflow-hidden">
         <motion.div style={{ x }} className="flex gap-4">
           {cards.map((card) => {
             return <Card card={card} key={card.id} />;

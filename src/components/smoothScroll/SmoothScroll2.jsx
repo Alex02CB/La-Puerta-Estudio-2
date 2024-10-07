@@ -38,7 +38,7 @@ const HorizontalScrollCarousel = () => {
     const handleResize = () => {
       if (window.matchMedia("(min-width: 768px) and (max-width: 1964px)").matches) {
         // RESOLUCIÓN MAC
-        setXRange(["4%", "-42%"]);
+        setXRange(["4%", "-45%"]);
       } else {
         // Pantallas grandes (más de 1964px)
         setXRange(["4%", "-20%"]);
@@ -59,7 +59,7 @@ const HorizontalScrollCarousel = () => {
 
   return (
     <section ref={targetRef} className="relative h-[200vh] ocultarScroll">
-      <div className="sticky top-0 flex h-screen items-center overflow-hidden">
+      <div className="sticky top-0 flex h-screen overflow-hidden">
         <motion.div style={{ x }} className="flex gap-4">
           {cards.map((card) => {
             return <Card card={card} key={card.id} />;

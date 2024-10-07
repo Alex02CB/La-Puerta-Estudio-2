@@ -818,12 +818,15 @@ div {
 // FIN SCROLL STICKY
 
 .bannerAboutUs {
+  padding-bottom: 20%;
+  padding-top: 20%;
   margin-top: 12vh !important;
   background: url('/imgAboutus/banneraboutus.jpg');
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 110vh;
 
 }
 
