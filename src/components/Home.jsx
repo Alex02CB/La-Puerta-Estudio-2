@@ -62,7 +62,7 @@ function Home() {
             <div className='container-fluid marginServicio ServicioEscritorio'>
                 <div className='row sectionOneHome'>
                     <div className='w-full d-flex servicio '>
-                        <div className='w-1/2' style={imgHome.img1}>
+                        <div className='w-1/2 elementoprueba' style={imgHome.img1}>
                         </div>
                         <div className='w-1/2 ml-7'>
                             <div className='d-flex justify-content-between mb-xl-5 mb-xs-0  col-lg-12 col-md-12 col-12'>

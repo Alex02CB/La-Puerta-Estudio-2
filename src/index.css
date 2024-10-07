@@ -92,6 +92,7 @@ body {
 .servicio div:nth-child(1) {
   background-position: center;
   background-size: cover;
+  background-position: right;
 }
 
 .bannerHome {
