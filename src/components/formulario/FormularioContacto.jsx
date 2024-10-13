@@ -80,7 +80,7 @@ function FormularioContacto() {
                         </div>
                         <div className='mt-5'>
                             <h4 className='font-extrabold font-medium'>Escribe tu mensaje</h4>
-                            <textarea {...register('mensaje', { required: true })} className='w-full' name="mensaje" rows="4" cols="50"></textarea>
+                            <textarea {...register('mensaje', { required: true, })} className='w-full' name="mensaje" rows="4" cols="50"></textarea>
                         </div>
 
                         <input className='botonForm mt-5' type="submit" value="Enviar tu mensaje" />
