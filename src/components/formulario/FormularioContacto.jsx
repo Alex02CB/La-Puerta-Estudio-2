@@ -45,7 +45,7 @@ function FormularioContacto() {
                         <div className='divNombreEmail'>
                             <div className='w-full lg:w-2/5 d-flex flex-col'>
                                 <label className='font-extrabold font-medium'>Nombre Completo</label>
-                                <input type="text" {...register('Nombre', {
+                                <input type="text" {...register('nombre', {
                                     required: true,
                                 })} />
                                 {errors.nombre?.type === 'required' && <p>El campo nombre es requerido</p>}
@@ -53,7 +53,7 @@ function FormularioContacto() {
 
                             <div className='w-full lg:w-2/5 d-flex flex-col'>
                                 <label className='font-extrabold font-medium'>Email</label>
-                                <input type="text" {...register('Email', {
+                                <input type="text" {...register('email', {
                                     required: true,
                                     // pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/
                                 })} />
@@ -64,17 +64,17 @@ function FormularioContacto() {
 
                         <div className='w-full lg:w-2/5 mt-5 d-flex flex-col'>
                             <label className='font-extrabold font-medium'>Empresa</label>
-                            <input type="text" {...register('Empresa')} />
+                            <input type="text" {...register('empresa')} />
                         </div>
 
                         <div className='w-full mt-5 d-flex flex-col'>
                             <h4 className='font-extrabold font-medium'>Elegir una opción</h4>
                             <label className='mt-3 check'>
-                                <input {...register('Servicios')} type="radio" id="estudio" value="Estudio" className="custom-checkbox" />Estudio
+                                <input {...register('servicios')} type="radio" id="estudio" value="Estudio" className="custom-checkbox" />Estudio
                             </label>
 
                             <label className='mt-3 check'>
-                                <input {...register('Servicios')} type="radio" id="boutique" value="La Puerta Boutique" className="custom-checkbox" />La Puerta Boutique
+                                <input {...register('servicios')} type="radio" id="boutique" value="La Puerta Boutique" className="custom-checkbox" />La Puerta Boutique
                             </label>
 
                         </div>
