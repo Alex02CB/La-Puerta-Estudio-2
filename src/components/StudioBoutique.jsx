@@ -5,6 +5,9 @@ import Footer from './Footer'
 import { Link } from 'react-router-dom'
 import ScrollSticky from './scrollStudioBoutique/ScrollSticky.jsx'
 import SmoothScrollBoutique from './smoothScroll/SmoothScrollBoutique.jsx'
+import "../styles.scss"
+import '../index.css'
+
 
 function StudioBoutique() {
 
