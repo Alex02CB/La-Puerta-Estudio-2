@@ -32,7 +32,7 @@ function StudioBoutique() {
                                 Tu navegador no soporta el video HTML5.
                             </video>
                             <video autoPlay loop muted playsInline className="video-mobile">
-                                <source src="public/imgEstudio/VideoEstudioMobile.mp4" type="video/mp4" />
+                                <source src="/imgEstudio/VideoEstudioMobile.mp4" type="video/mp4" />
                                 Tu navegador no soporta el video HTML5.
                             </video>
                         </div>
