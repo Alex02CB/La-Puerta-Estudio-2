@@ -8,6 +8,7 @@ import SmoothScrollBoutique from './smoothScroll/SmoothScrollBoutique.jsx'
 import '../index.css'
 
 
+
 function StudioBoutique() {
 
     useEffect(() => {
