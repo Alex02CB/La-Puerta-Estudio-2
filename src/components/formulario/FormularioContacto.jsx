@@ -14,7 +14,7 @@ function FormularioContacto() {
         reset();
 
         // Enviar la solicitud fetch de manera asíncrona
-        fetch("https://formsubmit.co/ajax/juanalejandrotriciclo@gmail.com", {
+        fetch("https://formsubmit.co/ajax/administracion@grupoduende.com", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
@@ -45,7 +45,7 @@ function FormularioContacto() {
                         <div className='divNombreEmail'>
                             <div className='w-full lg:w-2/5 d-flex flex-col'>
                                 <label className='font-extrabold font-medium'>Nombre Completo</label>
-                                <input type="text" {...register('nombre', {
+                                <input type="text" {...register('Nombre', {
                                     required: true,
                                 })} />
                                 {errors.nombre?.type === 'required' && <p>El campo nombre es requerido</p>}
@@ -53,7 +53,7 @@ function FormularioContacto() {
 
                             <div className='w-full lg:w-2/5 d-flex flex-col'>
                                 <label className='font-extrabold font-medium'>Email</label>
-                                <input type="text" {...register('email', {
+                                <input type="text" {...register('Email', {
                                     required: true,
                                     // pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/
                                 })} />
@@ -64,7 +64,7 @@ function FormularioContacto() {
 
                         <div className='w-full lg:w-2/5 mt-5 d-flex flex-col'>
                             <label className='font-extrabold font-medium'>Empresa</label>
-                            <input type="text" {...register('empresa')} />
+                            <input type="text" {...register('Empresa')} />
                         </div>
 
                         <div className='w-full mt-5 d-flex flex-col'>
@@ -78,9 +78,9 @@ function FormularioContacto() {
                             </label>
 
                         </div>
-                        <div className='mt-5  '>
+                        <div className='mt-5'>
                             <h4 className='font-extrabold font-medium'>Escribe tu mensaje</h4>
-                            <textarea className='w-full' name="mensaje" rows="4" cols="50"></textarea>
+                            <textarea {...register('mensaje', { required: true })} className='w-full' name="mensaje" rows="4" cols="50"></textarea>
                         </div>
 
                         <input className='botonForm mt-5' type="submit" value="Enviar tu mensaje" />
