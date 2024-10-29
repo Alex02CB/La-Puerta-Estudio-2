@@ -211,6 +211,7 @@ body {
 }
 
 @media (min-width:1024px) {
+
   .poemamobile {
     display: none;
   }

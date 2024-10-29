@@ -21,7 +21,7 @@ function Email() {
                         <p>Para cualquier consulta envíanos un correo electrónico.</p>
                     </div>
                     <div className="mailto w-5/6 lg:w-1/3 mt-5" >
-                        <a className="font-bold" href="mailto:lapuertaestudios@grupoduende.com">lapuertaestudios@grupoduende.com</a>
+                        <a className="font-bold" href="mailto:administracion@grupoduende.com">administracion@grupoduende.com</a>
                     </div>
                 </div>
             </div>

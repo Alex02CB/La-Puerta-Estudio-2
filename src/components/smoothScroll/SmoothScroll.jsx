@@ -8,7 +8,7 @@ import DownloadEstudioPDF from "../descargar/DownloadEstudioPDF";
 const imgStudioExperience = {
 
   img1: {
-    backgroundImage: 'url(/imgEstudio/salaElvira.jpg)',
+    backgroundImage: 'url(/imgEstudio/estudio.jpeg)',
   }
 }
 
@@ -32,7 +32,7 @@ const SmoothScroll = () => {
 
           {/* Lista MOBILE */}
           <div className='ListaCompletaMobile' style={imgStudioExperience.img1}>
-            <a href="" className='botonListaCompletaMobile'><DownloadEstudioPDF /></a>
+            <a href="" className='botonListaCompletaMobile'><DownloadPDF /></a>
           </div>
 
           <div className='ListadoEstudio'>
@@ -111,7 +111,7 @@ const HorizontalScrollCarousel = () => {
   return (
     <section ref={targetRef} className="relative h-[200vh] ocultarScroll">
       <div className="sticky top-0 flex h-screen + overflow-hidden">
-        <motion.div style={{ x }} className="flex gap-4">
+        <motion.div style={{ x }} className="div-smooth flex gap-4">
           {cards.map((card) => {
             return <Card card={card} key={card.id} />;
           })}
@@ -135,7 +135,7 @@ const Card = ({ card }) => {
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
-            className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
+            className="imagen-card-smooth absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
           ></div>
           <div className="absolute inset-0 z-10 grid place-content-center">
 
@@ -168,16 +168,16 @@ const cards = [
     id: 2,
   },
   {
+    url: "/imgEstudio/Cocina.jpg",
+    title: "Cocina",
+    description: "Totalmente equipada y a tu disposición. ",
+    id: 4,
+  },
+  {
     url: "/imgEstudio/control.jpeg",
     title: "Control",
     description: "El corazón del estudio, interconectado por distintos protocolos con las demás salas.",
     id: 3,
-  },
-  {
-    url: "/LaPuertaHome.jpg",
-    title: "Cocina",
-    description: "Totalmente equipada y a tu disposición. ",
-    id: 4,
   },
 
 ];

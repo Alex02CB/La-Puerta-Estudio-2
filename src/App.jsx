@@ -1,4 +1,4 @@
-import {Routes,Route} from 'react-router-dom';
+import {HashRouter,Routes,Route} from 'react-router-dom';
 import { useState,useEffect } from 'react';
 import Home from '/src/components/Home.jsx';
 import StudioExperience from '/src/components/StudioExperience.jsx';
@@ -39,22 +39,19 @@ function App() {
 
   return (
     <>
-
       <div>
         <Routes>
-        <Route path='/' element={<Home/>}/> 
-        <Route path='/' element={<Footer/>}/>
-        <Route path='/' element={<Nav/>}/>
-        <Route path='/studioexperience' element={<StudioExperience/>}/>
-        <Route path='/studioboutique' element={<StudioBoutique/>}/>
-        <Route path='/masterclass' element={<MasterClass/>}/>
-        <Route path='/aboutus' element={<AboutUs/>}/>
-        <Route path='/contactus' element={<Contact/>}/>
-        <Route path='/book' element={<Book/>}/>
-        <Route path='/email' element={<Email/>}/>
-        <Route path='/call' element={<Call/>}/>
-        <Route path='/openinghours' element={<OpeningHours/>}/>
-        <Route path='/encuentranos' element={<Encuentranos/>}/>
+          <Route path='/' element={<Home/>}/> 
+          <Route path='/studioexperience' element={<StudioExperience/>}/>
+          <Route path='/studioboutique' element={<StudioBoutique/>}/>
+          <Route path='/masterclass' element={<MasterClass/>}/>
+          <Route path='/aboutus' element={<AboutUs/>}/>
+          <Route path='/contactus' element={<Contact/>}/>
+          <Route path='/book' element={<Book/>}/>
+          <Route path='/email' element={<Email/>}/>
+          <Route path='/call' element={<Call/>}/>
+          <Route path='/openinghours' element={<OpeningHours/>}/>
+          <Route path='/encuentranos' element={<Encuentranos/>}/>
         </Routes>
       </div>
       

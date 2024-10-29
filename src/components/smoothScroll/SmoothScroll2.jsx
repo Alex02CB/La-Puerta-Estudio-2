@@ -60,7 +60,7 @@ const HorizontalScrollCarousel = () => {
   return (
     <section ref={targetRef} className="relative h-[200vh] ocultarScroll">
       <div className="sticky top-0 flex h-screen overflow-hidden">
-        <motion.div style={{ x }} className="flex gap-4">
+        <motion.div style={{ x }} className="div-smooth flex gap-4">
           {cards.map((card) => {
             return <Card card={card} key={card.id} />;
           })}
@@ -120,7 +120,7 @@ const cards = [
   },
   {
     url: "/imgEstudio/mezcla.jpeg",
-    title: "Mezcla & Mix",
+    title: "Mezcla & Máster",
     description:"Obtén el sonido que quieres mezclando lo mejor de lo analógico y lo digital.",
     id: 3,
   },

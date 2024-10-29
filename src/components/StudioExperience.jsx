@@ -7,7 +7,7 @@ import '../styles.scss'
 import './smoothScroll/SmoothScroll'
 import SmoothScroll from './smoothScroll/SmoothScroll'
 import SmoothScroll2 from './smoothScroll/SmoothScroll2'
-import DownloadEstudioPDF from './descargar/DownloadEstudioPDF'
+import DownloadEstudioPDF from './descargar/DownloadEstudioPDF.jsx'
 
 const imgStudioExperience = {
 

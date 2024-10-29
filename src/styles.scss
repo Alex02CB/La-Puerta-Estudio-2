@@ -377,8 +377,11 @@ div {
 }
 
 @media only screen and (max-width:1024px) {
+
+
   div {
     .sectionOne {
+      margin-top: 40px;
       margin-left: $marginBodyMobile;
       margin-right: $marginBodyMobile;
 
@@ -397,26 +400,30 @@ div {
   }
 }
 
+.div-smooth{
+  padding-top: 60px;
+}
+
 .smoothSize{
-  height: 649px;
-  width: 575px;
+  width: 500px;
+  height: 600px;
 }
 
-.global{
-  height: 649px;
-  width: 575px;
+@media only screen and (min-height:1080px){
+  .div-smooth{
+    padding-top: 250px;
+  }
 }
 
-
-@media only screen and (max-width:1536px) {
+@media only screen and (max-height:720px) {
   .smoothSize{
-    height: 544px;
-    width: 475px;
+    width: 300px;
+    height: 400px;
   }
-  .global{
-    height: 544px;
-    width: 475px;
+  .div-smooth{
+    padding-top: 50px;
   }
+
 }
 
 .imgNota {
@@ -426,7 +433,6 @@ div {
 .ocultarScroll {
   display: block;
 }
-
 
 .contactanosEstudioSmooth {
   display: block;
@@ -563,7 +569,7 @@ div {
 
     .imageStudioExperience {
       width: 100%;
-      height: 20vh;
+      height: 25vh;
       background-repeat: no-repeat;
       object-fit: contain;
       display: block;
@@ -571,7 +577,7 @@ div {
       justify-content: center;
       align-items: center;
       background-size: cover;
-      background-position: center;
+      background-position: 50% 40%;
     }
 
     .botonSaberMas2 {
@@ -760,6 +766,8 @@ div {
 }
 
 @media only screen and (max-width:1024px) {
+
+
   div {
     .plantilla {
       .plantillaImg {
@@ -817,6 +825,9 @@ div {
 
 // FIN SCROLL STICKY
 
+// ABOUT US
+
+
 .bannerAboutUs {
   padding-bottom: 20%;
   padding-top: 20%;
@@ -835,7 +846,6 @@ div {
   font-weight: 900;
 }
 
-// ABOUT US
 
 .plantillaMobileIMGboton {
   display: none;
@@ -848,6 +858,19 @@ div {
 
 
 @media only screen and (max-width:1024px) {
+
+  .bannerAboutUs {
+    padding-bottom: 10%;
+    padding-top: 10%;
+    margin-top: 4vh !important;
+    background: url('/imgAboutus/sobrenosotros_movil.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh !important;
+  
+  }
 
   .familia {
     display: none !important;

@@ -8,7 +8,7 @@ import { useEffect } from 'react'
 const imgAboutus = {
 
     img1: {
-        backgroundImage: 'url(/imgAboutus/localizacionMobile.webp)',
+        backgroundImage: 'url(/imgAboutus/localizacion.png)',
     },
     img2: {
         backgroundImage: 'url(/lapuertaboutiqueHome.jpeg)',
@@ -79,7 +79,7 @@ function AboutUs() {
                             <img src="/imgAboutus/roca.png" alt="La Puerta" />
                             <h3 className='font-bold mb-3 mt-3'>Carlos Roca</h3>
                             <p className='mb-3'>Técnico de estudio, productor y mánager.</p>
-                            <a className='text-zinc-500	' href="https://www.instagram.com/aiquealegriaa/">@ayquealegria</a>
+                            <a className='text-zinc-500	' href="https://www.instagram.com/aiquealegriaa/">@aiquealegria</a>
                         </div>
 
                         <div className='w-1/5'>
