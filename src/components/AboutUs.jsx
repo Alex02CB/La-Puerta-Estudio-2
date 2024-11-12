@@ -78,7 +78,7 @@ function AboutUs() {
                         <div className='w-1/5'>
                             <img src="/imgAboutus/roca.png" alt="La Puerta" />
                             <h3 className='font-bold mb-3 mt-3'>Carlos Roca</h3>
-                            <p className='mb-3'>Técnico de estudio, productor y mánager.</p>
+                            <p className='mb-3'>Productor ejecutivo y mánager.</p>
                             <a className='text-zinc-500	' href="https://www.instagram.com/aiquealegriaa/">@aiquealegria</a>
                         </div>
 

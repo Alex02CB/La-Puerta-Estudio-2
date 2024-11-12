@@ -50,8 +50,6 @@ function Footer() {
 
                             <p>Todos los derechos reservados 2024 ®</p>
 
-                            <a href="">Terminos y condiciones</a>
-
                         </div>
 
                         <div className='col-lg-6 d-flex align-items-end justify-content-end'>
