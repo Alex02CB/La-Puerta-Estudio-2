@@ -7,7 +7,7 @@ html{
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'montserrat', sans-serif;
 
     // MAX WIDTH
     $max-width:2376px;
@@ -32,48 +32,48 @@ body{
 
     h1{
         font-size: $font-h1;
-        font-family: "Lato", sans-serif;
+        font-family: "montserrat", sans-serif;
     }
 
     h2{
         font-size: $font-h2;
-        font-family: "Lato", sans-serif;
+        font-family: "montserrat", sans-serif;
         font-weight: 800;
     }
 
     h3{
         font-size: $font-h3;
-        font-family: "Lato", sans-serif;
+        font-family: "montserrat", sans-serif;
     }
 
     p{
         font-size: $font-p;
-        font-family: "Lato", sans-serif;
+        font-family: "montserrat", sans-serif;
     }
 
     a{  
         font-size: $font-p;
-        font-family: "Lato", sans-serif;
+        font-family: "montserrat", sans-serif;
     }
 
     @media only screen and (max-width: 1024px) {
         h1{
             font-size: $font-h1-mobile;
-            font-family: "Lato", sans-serif;
+            font-family: "montserrat", sans-serif;
         }
         
         h2{
             font-size: $font-h2-mobile;
-            font-family: "Lato", sans-serif;
+            font-family: "montserrat", sans-serif;
         }
         p{
             font-size: $font-p-mobile !important;
-            font-family: "Lato", sans-serif;
+            font-family: "montserrat", sans-serif;
         }
         
         a{  
             font-family: $font-p-mobile;
-            font-family: "Lato", sans-serif;
+            font-family: "montserrat", sans-serif;
         }
     }
 
